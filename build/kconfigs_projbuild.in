@@ -1,6 +1,0 @@
-source "D:/Hiep/esp32/Espressif/v5.1.6/esp-idf/components/bootloader/Kconfig.projbuild"
-source "D:/Hiep/esp32/Espressif/v5.1.6/esp-idf/components/esp_app_format/Kconfig.projbuild"
-source "D:/Hiep/esp32/Espressif/v5.1.6/esp-idf/components/esp_rom/Kconfig.projbuild"
-source "D:/Hiep/esp32/Espressif/v5.1.6/esp-idf/components/esptool_py/Kconfig.projbuild"
-source "D:/Hiep/esp32/Espressif/v5.1.6/esp-idf/components/partition_table/Kconfig.projbuild"
-source "D:/Hiep/lab/airsense_test/components/PMS7003/Kconfig.projbuild"

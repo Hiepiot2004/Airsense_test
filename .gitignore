@@ -1,0 +1,10 @@
+# Bỏ qua thư mục build
+build/
+
+# Bỏ qua thư mục .vscode (hoặc các file IDE khác)
+.vscode/
+
+# Bỏ qua các file do ESP-IDF tạo ra
+*.bin
+*.elf
+*.map
