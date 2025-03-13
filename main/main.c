@@ -40,7 +40,7 @@ void pms7003_task(void *pvParameters)
             ESP_LOGW("PMS7003", "Failed to read data");
         }
 
-        vTaskDelay(pdMS_TO_TICKS(5000)); // Đọc mỗi 5 giây
+        vTaskDelay(pdMS_TO_TICKS(5000)); // Đọc mỗi 5 giây ...
     }
 }
 
