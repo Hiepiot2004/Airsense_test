@@ -1,0 +1,23 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hiep\lab\airsense_test\build\bootloader\esp-idf\esptool_py && D:\Hiep\esp32\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/Hiep/esp32/Espressif/v5.1.6/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Hiep/lab/airsense_test/build/bootloader/bootloader.bin"
+Bootloader binary size 0x68a0 bytes. 0x760 bytes (7%) free.
+[2/11] No install step for 'bootloader'
+[3/11] Completed 'bootloader'
+[4/11] Building C object esp-idf/PMS7003/CMakeFiles/__idf_PMS7003.dir/pms7003.c.obj
+D:/Hiep/lab/airsense_test/components/PMS7003/pms7003.c: In function 'pms7003_readData':
+D:/Hiep/lab/airsense_test/components/PMS7003/pms7003.c:57:9: warning: variable 'lenghtSensorDataArray' set but not used [-Wunused-but-set-variable]
+   57 |     int lenghtSensorDataArray;
+      |         ^~~~~~~~~~~~~~~~~~~~~
+[5/11] Linking C static library esp-idf\PMS7003\libPMS7003.a
+[6/11] Linking C static library esp-idf\main\libmain.a
+[7/11] Generating ld/sections.ld
+[8/11] Building C object CMakeFiles/airsense_test.elf.dir/project_elf_src_esp32.c.obj
+[9/11] Linking CXX executable airsense_test.elf
+[10/11] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Hiep/lab/airsense_test/build/airsense_test.bin
+[11/11] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hiep\lab\airsense_test\build\esp-idf\esptool_py && D:\Hiep\esp32\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/Hiep/esp32/Espressif/v5.1.6/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Hiep/lab/airsense_test/build/partition_table/partition-table.bin D:/Hiep/lab/airsense_test/build/airsense_test.bin"
+airsense_test.bin binary size 0x2ac90 bytes. Smallest app partition is 0x100000 bytes. 0xd5370 bytes (83%) free.
